@@ -13,17 +13,25 @@ public class RehearsalRoom {
 
         System.out.println(band1.getBandName());
         System.out.println(singer1.getAge());
-        leadGuitar1.playMusic(1);
-        musician1.playMusic(1);
-        singer1.playMusic(1);
+        leadGuitar1.playMusic();
+        musician1.playMusic();
+        singer1.playMusic();
         playMusic(musician1, musician2, leadGuitar1, singer1);
+
+
+        MusicContest musicContest1 = new MusicContest("Music Contest 2020");
+        musicContest1.addContestant(musician1);
+        musicContest1.addContestant(singer1);
+        musicContest1.addContestant(leadGuitar1);
+        musicContest1.printContesters();
+
     }
 
 
     public static void playMusic ( Musician ... gruppe){
         System.out.println("TU Tu TU, Ta, Ta, Bam");
         for (Musician musician : gruppe){
-            musician.playMusic(1);
+            musician.playMusic();
         }
         System.out.println("Wir müssen noch üben");
     }

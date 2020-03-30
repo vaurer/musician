@@ -10,14 +10,23 @@ public class Musician {
     private int age;
     private INSTRUMENT instrument;
     private Band band;
+    private String sound;
 
     public Musician(String name, int age, INSTRUMENT instrument, Band band) {
         this.name = name;
         this.age = age;
         this.instrument = instrument;
         this.band = band;
+        this.sound = "mOO Mmmmh, OO Mmmmmh!";
     }
 
+    public String getSound() {
+        return sound;
+    }
+
+    public void setSound(String sound) {
+        this.sound = sound;
+    }
     public String getName() {
         return name;
     }
@@ -50,8 +59,8 @@ public class Musician {
         this.band = band;
     }
 
-    public void playMusic(int repeats){
-        for (int i = 0; i <repeats ; i++) {
+    public void playMusic(){
+        for (int i = 0; i <1 ; i++) {
             System.out.println(" la la la");
         }
     }

@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93e5c630-6e1f-4f36-9e43-616a03a1a494" name="Default Changelist" comment="" />
+    <list default="true" id="93e5c630-6e1f-4f36-9e43-616a03a1a494" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/va/CC/MusicContest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OO_Musician/va/CC/LeadGuitar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OO_Musician/va/CC/LeadGuitar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OO_Musician/va/CC/Musician.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OO_Musician/va/CC/Musician.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OO_Musician/va/CC/RehearsalRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OO_Musician/va/CC/RehearsalRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OO_Musician/va/CC/Singer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OO_Musician/va/CC/Singer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/va/CC/LeadGuitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/va/CC/LeadGuitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/va/CC/Musician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/va/CC/Musician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/va/CC/RehearsalRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/va/CC/RehearsalRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/va/CC/Singer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/va/CC/Singer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,11 +26,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZkV9IlftoG7gvABHuLhxYVtlde" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager" selected="Application.RehearsalRoom">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -27,6 +46,19 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MusicContest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="va.CC.MusicContest" />
+      <module name="OO_Musician" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="va.CC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -47,10 +79,12 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.RehearsalRoom" />
+      <item itemvalue="Application.MusicContest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.RehearsalRoom" />
+        <item itemvalue="Application.MusicContest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -69,41 +103,49 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1086" y="385" key="#com.intellij.ide.util.MemberChooser" timestamp="1585399023508">
+    <state x="1086" y="385" key="#com.intellij.ide.util.MemberChooser" timestamp="1585585729929">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1086" y="385" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1585399023508" />
-    <state width="2517" height="393" key="GridCell.Tab.0.bottom" timestamp="1585581203015">
+    <state x="1086" y="385" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1585585729929" />
+    <state width="2517" height="393" key="GridCell.Tab.0.bottom" timestamp="1585592037079">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="393" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1585581203015" />
-    <state width="2517" height="393" key="GridCell.Tab.0.center" timestamp="1585581203015">
+    <state width="2517" height="393" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1585592037079" />
+    <state width="2517" height="393" key="GridCell.Tab.0.center" timestamp="1585592037079">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="393" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1585581203015" />
-    <state width="2517" height="393" key="GridCell.Tab.0.left" timestamp="1585581203015">
+    <state width="2517" height="393" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1585592037079" />
+    <state width="2517" height="393" key="GridCell.Tab.0.left" timestamp="1585592037079">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="393" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1585581203015" />
-    <state width="2517" height="393" key="GridCell.Tab.0.right" timestamp="1585581203015">
+    <state width="2517" height="393" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1585592037079" />
+    <state width="2517" height="393" key="GridCell.Tab.0.right" timestamp="1585592037079">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="393" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585581203015" />
-    <state width="2517" height="483" key="GridCell.Tab.1.bottom" timestamp="1585400602747">
+    <state width="2517" height="393" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585592037079" />
+    <state width="2517" height="483" key="GridCell.Tab.1.bottom" timestamp="1585591101289">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="483" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1585400602747" />
-    <state width="2517" height="483" key="GridCell.Tab.1.center" timestamp="1585400602747">
+    <state width="2517" height="483" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1585591101289" />
+    <state width="2517" height="483" key="GridCell.Tab.1.center" timestamp="1585591101289">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="483" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1585400602747" />
-    <state width="2517" height="483" key="GridCell.Tab.1.left" timestamp="1585400602747">
+    <state width="2517" height="483" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1585591101289" />
+    <state width="2517" height="483" key="GridCell.Tab.1.left" timestamp="1585591101289">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="483" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1585400602747" />
-    <state width="2517" height="483" key="GridCell.Tab.1.right" timestamp="1585400602747">
+    <state width="2517" height="483" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1585591101289" />
+    <state width="2517" height="483" key="GridCell.Tab.1.right" timestamp="1585591101289">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="483" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585400602747" />
+    <state width="2517" height="483" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585591101289" />
+    <state x="988" y="329" key="refactoring.ChangeSignatureDialog" timestamp="1585591375108">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="988" y="329" key="refactoring.ChangeSignatureDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1585591375108" />
+    <state x="943" y="315" key="search.everywhere.popup" timestamp="1585586626039">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1585586626039" />
   </component>
 </project>

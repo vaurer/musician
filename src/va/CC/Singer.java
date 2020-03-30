@@ -17,8 +17,8 @@ public class Singer extends Musician {
         this.musicArt = musicArt;
     }
   @Override
-  public void playMusic(int repeats){
-      for (int i = 0; i <repeats ; i++) {
+  public void playMusic(){
+      for (int i = 0; i <1 ; i++) {
           System.out.println("Welcome to the jungle...");
       }
   }

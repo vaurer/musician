@@ -6,8 +6,8 @@ public class LeadGuitar extends Musician{
     }
 
     @Override
-    public void playMusic(int repeats){
-        for (int i = 0; i <repeats ; i++) {
+    public void playMusic(){
+        for (int i = 0; i <1 ; i++) {
             System.out.println("na na na na na na");
         }
     }
