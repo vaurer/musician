@@ -20,7 +20,7 @@ public class MusicContest {
     }
 
     public Musician contestWinner() {
-        int winner = (int) (Math.random() * musicians.size() - 1);
+        int winner = (int) (Math.random() * musicians.size());
         Musician contestWinner = this.musicians.get(winner);
         //System.out.println("\nAnd the winner is...." + contestWinner().getName());
         return contestWinner;
@@ -34,12 +34,11 @@ public class MusicContest {
     }
 
     public void printContesters() {
-        System.out.println(contestName + " contesters:");
+        System.out.println("\n" + contestName + " contesters:");
         for (int i = 0; i < musicians.size(); i++) {
             System.out.println(musicians.get(i).getName());
 
         }
-        System.out.println("\nAnd the winner is...." + contestWinner().getName());
-
+        System.out.println("\nAnd the winner is.... " + contestWinner().getName());
     }
 }

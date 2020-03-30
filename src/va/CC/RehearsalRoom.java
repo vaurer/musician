@@ -23,6 +23,7 @@ public class RehearsalRoom {
         musicContest1.addContestant(musician1);
         musicContest1.addContestant(singer1);
         musicContest1.addContestant(leadGuitar1);
+        musicContest1.addContestant(musician3);
         musicContest1.printContesters();
 
     }

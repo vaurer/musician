@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93e5c630-6e1f-4f36-9e43-616a03a1a494" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/va/CC/MusicContest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OO_Musician/va/CC/LeadGuitar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OO_Musician/va/CC/LeadGuitar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OO_Musician/va/CC/Musician.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OO_Musician/va/CC/Musician.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OO_Musician/va/CC/RehearsalRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OO_Musician/va/CC/RehearsalRoom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OO_Musician/va/CC/Singer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OO_Musician/va/CC/Singer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/va/CC/LeadGuitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/va/CC/LeadGuitar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/va/CC/Musician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/va/CC/Musician.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/va/CC/RehearsalRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/va/CC/RehearsalRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/va/CC/Singer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/va/CC/Singer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/va/CC/MusicContest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/va/CC/MusicContest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,29 +91,45 @@
       <option name="presentableId" value="Default" />
       <updated>1585382925881</updated>
     </task>
+    <task id="LOCAL-00001" summary="added contest">
+      <created>1585592064254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585592064254</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added contest" />
+    <option name="LAST_COMMIT_MESSAGE" value="added contest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1086" y="385" key="#com.intellij.ide.util.MemberChooser" timestamp="1585585729929">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1086" y="385" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1585585729929" />
-    <state width="2517" height="393" key="GridCell.Tab.0.bottom" timestamp="1585592037079">
+    <state x="937" y="295" key="CommitChangelistDialog2" timestamp="1585592370903">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="393" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1585592037079" />
-    <state width="2517" height="393" key="GridCell.Tab.0.center" timestamp="1585592037079">
+    <state x="937" y="295" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1585592370903" />
+    <state width="2517" height="393" key="GridCell.Tab.0.bottom" timestamp="1585592513135">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="393" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1585592037079" />
-    <state width="2517" height="393" key="GridCell.Tab.0.left" timestamp="1585592037079">
+    <state width="2517" height="393" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1585592513135" />
+    <state width="2517" height="393" key="GridCell.Tab.0.center" timestamp="1585592513135">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="393" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1585592037079" />
-    <state width="2517" height="393" key="GridCell.Tab.0.right" timestamp="1585592037079">
+    <state width="2517" height="393" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1585592513135" />
+    <state width="2517" height="393" key="GridCell.Tab.0.left" timestamp="1585592513135">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="393" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585592037079" />
+    <state width="2517" height="393" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1585592513135" />
+    <state width="2517" height="393" key="GridCell.Tab.0.right" timestamp="1585592513135">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="393" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585592513135" />
     <state width="2517" height="483" key="GridCell.Tab.1.bottom" timestamp="1585591101289">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -139,6 +146,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="483" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585591101289" />
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1585592108922">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1585592108922" />
     <state x="988" y="329" key="refactoring.ChangeSignatureDialog" timestamp="1585591375108">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
