@@ -41,7 +41,7 @@ public class RehearsalRoom {
         for (Musician musician : gruppe) {
             musician.playMusic();
         }
-        System.out.println("We need more practice");
+        System.out.println("We need more practice\n");
     }
 }
 

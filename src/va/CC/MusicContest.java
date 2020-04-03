@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class MusicContest {
     private String contestName;
-    ArrayList<Musician> musicians;
+    private ArrayList<Musician> musicians;
 
     public MusicContest(String contestName) {
         this.contestName = contestName;
