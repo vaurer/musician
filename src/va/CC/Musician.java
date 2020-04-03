@@ -1,20 +1,17 @@
 package va.CC;
 
 
-public class Musician {
+public class Musician extends Artist{
 
     public  enum INSTRUMENT {VOICE, LEADGUITAR,RHITHMGUITAR, BASGUITAR, DRUMS}
 
 
-    private String name;
-    private int age;
     private INSTRUMENT instrument;
     private Band band;
     private String sound;
 
-    public Musician(String name, int age, INSTRUMENT instrument, Band band) {
-        this.name = name;
-        this.age = age;
+    public Musician(String firstName, String lastName, int age, String stageName,INSTRUMENT instrument, Band band) {
+        super(firstName, lastName, age, stageName);
         this.instrument = instrument;
         this.band = band;
         this.sound = "mOO Mmmmh, OO Mmmmmh!";
@@ -26,21 +23,6 @@ public class Musician {
 
     public void setSound(String sound) {
         this.sound = sound;
-    }
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
     }
 
     public INSTRUMENT getInstrument() {

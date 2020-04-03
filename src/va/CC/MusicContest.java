@@ -29,16 +29,17 @@ public class MusicContest {
 
     public void addContestant(Musician musician) {
         this.musicians.add(musician);
-        musician.getName();
+        musician.getStageName();
         musician.getSound();
     }
 
     public void printContesters() {
         System.out.println("\n" + contestName + " contesters:");
         for (int i = 0; i < musicians.size(); i++) {
-            System.out.println(musicians.get(i).getName());
+            System.out.println(musicians.get(i).getFirstName() + " " + musicians.get(i).getLastName() + " - " + musicians.get(i).getStageName());
 
         }
-        System.out.println("\nAnd the winner is.... " + contestWinner().getName());
+        System.out.println("\nAnd the winner is.... " + contestWinner().getStageName());
+        contestWinner().playMusic();
     }
 }

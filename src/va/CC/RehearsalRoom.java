@@ -4,34 +4,33 @@ public class RehearsalRoom {
     public static void main(String[] args) {
 
         Band band1 = new Band("Guns N' Roses");
-        Singer singer1 = new Singer("Axl", 30, Musician.INSTRUMENT.VOICE, band1, "hard rock");
-        LeadGuitar leadGuitar1 = new LeadGuitar("Slash", 35, Musician.INSTRUMENT.LEADGUITAR, band1);
-        Musician musician1 = new Musician("Duff", 33, Musician.INSTRUMENT.BASGUITAR, band1);
-        Musician musician2 = new Musician("Izzy", 31, Musician.INSTRUMENT.RHITHMGUITAR, band1);
-        Musician musician3 = new Musician("Steven", 33, Musician.INSTRUMENT.DRUMS, band1);
-        //rehearsal(singer1);
+
+        Musician musician1 = new Musician("Duff", "McKagan", 28, "Duff", Musician.INSTRUMENT.BASGUITAR, band1);
+        Musician musician2 = new Musician("Izzy", "Stradlin", 25, "Izzy", Musician.INSTRUMENT.RHITHMGUITAR, band1);
+        Musician musician3 = new Musician("Michael ", "Coletti", 23, "Steven Adler", Musician.INSTRUMENT.DRUMS, band1);
+        Musician musician4 = new Musician("William", "Rose", 29, "Axl Rose", Musician.INSTRUMENT.VOICE, band1);
+        Musician musician5 = new Musician("Saul", "Hudson", 31, "Slash", Musician.INSTRUMENT.LEADGUITAR, band1);
 
         System.out.println(band1.getBandName());
-        System.out.println(singer1.getAge());
-        leadGuitar1.playMusic();
         musician1.playMusic();
-        singer1.playMusic();
-        playMusic(musician1, musician2, leadGuitar1, singer1);
+        playMusic(musician1, musician2, musician3, musician4, musician5);
+        musician4.setSound("Welcome to the jungle...");
 
 
         MusicContest musicContest1 = new MusicContest("Music Contest 2020");
         musicContest1.addContestant(musician1);
-        musicContest1.addContestant(singer1);
-        musicContest1.addContestant(leadGuitar1);
+        musicContest1.addContestant(musician2);
         musicContest1.addContestant(musician3);
+        musicContest1.addContestant(musician4);
+        musicContest1.addContestant(musician5);
         musicContest1.printContesters();
 
     }
 
 
-    public static void playMusic ( Musician ... gruppe){
+    public static void playMusic(Musician... gruppe) {
         System.out.println("TU Tu TU, Ta, Ta, Bam");
-        for (Musician musician : gruppe){
+        for (Musician musician : gruppe) {
             musician.playMusic();
         }
         System.out.println("Wir müssen noch üben");
