@@ -1,7 +1,7 @@
 package va.CC;
 
 
-public class Band {
+abstract class Band {
 
     private String bandName;
 
@@ -17,6 +17,8 @@ public class Band {
     public void setBandName(String bandName) {
         this.bandName = bandName;
     }
+
+    public abstract void playBandMusic();
 
 
 }

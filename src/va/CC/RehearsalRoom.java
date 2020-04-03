@@ -3,7 +3,12 @@ package va.CC;
 public class RehearsalRoom {
     public static void main(String[] args) {
 
-        Band band1 = new Band("Guns N' Roses");
+        Band band1 = new Band("Guns N' Roses") {
+            @Override
+            public void playBandMusic() {
+                System.out.println("Drum Drum Drum");
+            }
+        };
 
         Musician musician1 = new Musician("Duff", "McKagan", 28, "Duff", Musician.INSTRUMENT.BASGUITAR, band1);
         Musician musician2 = new Musician("Izzy", "Stradlin", 25, "Izzy", Musician.INSTRUMENT.RHITHMGUITAR, band1);
@@ -15,6 +20,9 @@ public class RehearsalRoom {
         musician1.playMusic();
         playMusic(musician1, musician2, musician3, musician4, musician5);
         musician4.setSound("Welcome to the jungle...");
+        band1.playBandMusic();
+        System.out.println(musician4.getSound());
+        System.out.println(musician1.getSound());
 
 
         MusicContest musicContest1 = new MusicContest("Music Contest 2020");
@@ -33,7 +41,7 @@ public class RehearsalRoom {
         for (Musician musician : gruppe) {
             musician.playMusic();
         }
-        System.out.println("Wir müssen noch üben");
+        System.out.println("We need more practice");
     }
 }
 
